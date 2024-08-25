@@ -1,0 +1,200 @@
+#homeContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#subConatiner1 {
+  /* border: 2px solid black; */
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e4f5f3;
+  border-bottom: 1px solid #7b999e;
+}
+
+#sectionFirst {
+  /* border: 2px solid palevioletred; */
+  height: 55vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#companyName {
+  /* border: 2px solid yellowgreen; */
+  height: 8vh;
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #f27f3d;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#companyDetails {
+  /* border: 2px solid blue; */
+  height: 30vh;
+  width: 90%;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#serviceButton {
+  /* border: 2px solid mediumaquamarine; */
+  height: 8vh;
+  width: 90%; 
+  display: flex;
+  justify-content: start;
+}
+
+#serviceBt{
+  /* border: 2px solid yellow; */
+  border-radius: 10px;
+  height: 45px;
+  width: 40%;
+  background-color: #133864;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  color: whitesmoke;
+}
+
+#serviceBt:hover {
+  background: #f27f3d;
+}
+
+#serviceSlider {
+  /* border: 2px solid mediumblue; */
+  height: 55vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slider {
+  border: 5px solid orange;
+}
+
+#subConatiner2 {
+  /* border: 2px solid green; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f2f6f9;
+}
+
+#d1 {
+  /* border: 2px solid yellow; */
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #162d52;
+  font-weight: bold;
+}
+
+#d2 {
+  /* border: 2px solid red; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.seviceIcon {
+  /* border: 2px solid pink; */
+  height: 60vh;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.seviceIcon:hover {
+  border-bottom: 5px solid #f27f3d;
+  box-shadow: 10px 10px 10px rgb(237, 230, 230);
+  cursor: pointer;
+}
+
+.iconDiv {
+  /* border: 2px solid mediumaquamarine; */
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subIcon {
+  /* border: 2px solid black; */
+  height: 8vh;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.subIcon:hover {
+  border: 3px solid #f27f3d;
+}
+
+.headDiv {
+  /* border: 2px solid yellow; */
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #162d52;
+  font-weight: bold;
+}
+
+.conDiv {
+  /* border: 2px solid red; */
+  height: 30vh;
+  width: 90%;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#footerDiv {
+  /* border: 2px solid red; */
+  height: 10vh;
+  width: 100%;
+  background: #162d52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footerCon {
+  /* border: 2px solid yellow; */
+  color: #7b999e;
+  width: 95%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 16px;
+}

@@ -1,0 +1,121 @@
+/* Add your custom styles here */
+
+.highlight-username {
+    /* background-color: #ffff99; Light yellow background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-email {
+    /* background-color: #ccffcc; Light green background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-phone {
+    /* background-color: #ffcccc; Light red background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-service {
+    /* background-color: #ccccff; Light blue background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-date {
+    /* background-color: #ffffcc; Light yellow background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-status {
+    /* background-color: #e6ffe6; Light green background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-price {
+    /* background-color: #f2f2f2; Light gray background for highlighting */
+    font-weight: bold;
+  }
+  
+  .highlight-payment-status {
+    font-weight: bold; /* Makes the text bold */
+    /* color: #28a745; Green color for payment status */
+  }
+  
+  .highlight-payment-type {
+    font-weight: bold; /* Makes the text bold */
+    /* color: #17a2b8; Teal color for payment type */
+  }
+  
+  .highlight-TransactionID {
+    font-weight: bold; /* Makes the text bold */
+    /* color: #17a2b8; Teal color for payment type */
+  }
+
+  .highlight-Customer-ID {
+    font-weight: bold; /* Makes the text bold */
+    /* color: #17a2b8; Teal color for payment type */
+  }
+  .customer-history {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light grey background for the entire component */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .customer-history h1 {
+    color: #343a40; /* Dark color for the heading */
+  }
+  
+  .customer-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customer-history li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Rounded corners for list items */
+    background-color: #ffffff; /* White background for list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .customer-history li:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .highlight-username,
+  .highlight-email,
+  .highlight-phone,
+  .highlight-service,
+  .highlight-date,
+  .highlight-status,
+  .highlight-price {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  
+  .view-more-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-more-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .hidden-info {
+    display: none;
+  }
+  
+  .show-info .hidden-info {
+    display: block;
+  }
+  
+  
