@@ -12,7 +12,7 @@ import acLogo from "../assets/images/AClogo.png"
 import saloonLogo from "../assets/images/SaloonImage.png"
 import { TypeAnimation } from 'react-type-animation';
 
-
+   
 
 export default function Home() {
   const navigate=useNavigate()
@@ -50,6 +50,9 @@ export default function Home() {
   }
   const handleAdd=()=>{
     navigate('/service')
+   }
+   const handleButton=()=>{
+    navigate('/Unathorized')
    }
  
   return (
@@ -100,7 +103,7 @@ export default function Home() {
             <i class="fa-solid fa-paint-roller"></i>
             </div>
           </div>
-          <div className="headDiv">
+          <div className="headDiv" >
             Painting Of Walls & Furniture
           </div>
           <div className="conDiv">
